@@ -56,7 +56,7 @@ public class login extends AppCompatActivity {
                 String phone = enternumber.getText().toString();
                 String password = enterpassword.getText().toString();
                 if(!enternumber.getText().toString().trim().isEmpty()){
-                    if((enternumber.getText().toString().trim()).length() ==10){
+                    if((enternumber.getText().toString().trim()).length() ==11){
                         progressBar.setVisibility(View.VISIBLE);
                         getOtp.setVisibility(View.INVISIBLE);
 //                        String number = enternumber.getText().toString();
